@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Tiffany Lynn Vargas - Portfolio</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+          <meta charset="utf-8">
+          <meta name="description" content="Tiffany Lynn Vargas - Portfolio - Hair Stylist Extrodinaire">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+</head>
+
+<body>
+  <nav>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="brand" href="/" style="font-family:cursive, times; font-size:250%"><div><span class="pink raleway">Tiffany Lynn Vargas</span></div></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li class="active"><a href="/"><span class="current"><i class="icon-home"></i></span> Home</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="/"><span class="current"></span> Portfolio</a>
+              <li class="divider-vertical"></li>
+              <li class="dropdown"> <a href="/" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a href="http://TiffanyVargas.blogspot.com">Weddings</a></li>
+                  <li><a href="http://venarenee.com‎">Hair</a></li>
+                  
+                  <li class="divider"></li>
+                  
+                  
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="http://www.google.com">My Favorite Sites</a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="http://www.google.com">Google</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              <li class="divider-vertical"></li>
+              <li><a href="/"><span class="current"></span> Contact </a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="#"><span class="current"></span>     </a></li>
+              <li class="divider-vertical"></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse --> 
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<%= yield %>
+
+
+
+<footer>
+  
+  <!--Control Bar-->
+  <div id="controls-wrapper" class="load-item" style="display: block;">
+    <div class="container">
+      <div id="controls"> 
+        <div id="credits_footer"><small>Tiffany Lynn Vargas ©2013 by<a href="http://twitter.com/peterlowry" data-container="body" class="tooltips" data-placement="top" data-trigger="hover" data-title="@peterlowry" target="_blank" data-original-title="" title="">@peterlowry</a></small></div>
+        <div id="social"><small> Follow Tiffany: </small><a class="facebook tooltips" data-container="body" data-placement="top" data-trigger="hover" data-title="Facebook" href="http://www.facebook.com/tiffany.vargas.5?ref=ts&fref=ts" data-original-title="" title=""><img src="images/icono-facebook.jpg" height="20" width="20"></a> <a class="twitter tooltips" data-container="body" data-placement="top" data-trigger="hover" data-title="Twitter" href="https://twitter.com/TiffanyLynnvarg" data-original-title="" title=""><img src="images/twitter-icon.jpg" height="20" width="20"></a> <a class="pinterest tooltips" data-container="body" data-placement="top" data-trigger="hover" data-title="Pinterest" href="https://pinterest.com" data-original-title="" title=""><img src="images/pinterest-icon.jpg" height="20" width="20"></i></a><a class="instagram tooltips" data-container="body" data-placement="top" data-trigger="hover" data-title="Instagram" href="" data-original-title="" title=""><img src="images/intsta-icon.jpg" height="20" width="20"></a> </div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+<!-- the javascript on bottom to improve loading speed================================================== -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootslider.js"></script>
+
+
+</body>
+</html>
