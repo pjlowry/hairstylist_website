@@ -2,7 +2,7 @@ Photography::Application.routes.draw do
 
 
   root to: 'home#index', :as => "Home"
-  %w[contact portfolio about].each do |page|
+  %w[contact portfolio about services].each do |page|
     get page, controller: 'info', action: page
   end
   # The priority is based upon order of creation:
